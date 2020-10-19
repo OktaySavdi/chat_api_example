@@ -8,7 +8,7 @@ we will use the images created here kubernetes_chat_api_example [Chat-api-exampl
        docker build -t chatapiproject -f Dockerfile .
 
 # Run
-    docker run -d -p 5000:80 --name myapp chatapiproject
+    docker run -d -p 5000:8080 --name myapp chatapiproject
 
 # Call
     curl http://localhost:5000/api/swagger
